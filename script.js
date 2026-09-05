@@ -1,4 +1,4 @@
-
+const API_KEY = CONFIG.WEATHER_API_KEY;
 async function getWeather() {
     const cityInput = document.getElementById('cityInput');
     const city = cityInput.value.trim();
